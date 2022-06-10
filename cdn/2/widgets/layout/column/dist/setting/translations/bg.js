@@ -1,1 +1,0 @@
-define({verticalAlign:"Вертикално подравняване",spaceAround:"Пространство наоколо",spaceBetween:"Пространство между",spaceEvenly:"Равномерно пространство",horizontalAlign:"Хоризонтално подравняване",scrollable:"С възможност за превъртане"});

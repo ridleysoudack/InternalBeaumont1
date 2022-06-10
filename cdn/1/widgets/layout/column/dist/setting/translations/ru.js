@@ -1,1 +1,0 @@
-define({verticalAlign:"Выровнять по вертикали",spaceAround:"Пространство вокруг",spaceBetween:"Пространство между",spaceEvenly:"Равное расстояние",horizontalAlign:"Выровнять по горизонтали",scrollable:"Прокручиваемый"});

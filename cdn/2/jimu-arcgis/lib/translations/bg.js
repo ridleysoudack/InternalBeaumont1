@@ -1,1 +1,0 @@
-define({layerIsNotSupported:"Този тип слой не се поддържа."});

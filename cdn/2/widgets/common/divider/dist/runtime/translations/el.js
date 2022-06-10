@@ -1,1 +1,0 @@
-define({_widgetLabel:"Διαχωριστικό",quickStyleItem:"Γρήγορο στυλ {index}"});

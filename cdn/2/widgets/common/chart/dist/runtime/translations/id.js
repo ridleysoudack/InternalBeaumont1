@@ -1,1 +1,0 @@
-define({_widgetLabel:"Diagram",datalimitedTip:"Grafik batang atau kolom dibatasi total 1.000 batang. Filter atau agregasi ulang data Anda dan coba lagi.",pieDatalimitedTip:"Tidak dapat merender, terlalu banyak kategori. Diagram pai dibatasi hingga 300 kategori sebagai maksimum.",dataEmptyTip:"Tidak ada data yang ditemukan."});

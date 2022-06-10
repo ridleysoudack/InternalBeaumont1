@@ -1,1 +1,0 @@
-define({_widgetLabel:"Роздільник",quickStyleItem:"Швидкий стиль {index}"});

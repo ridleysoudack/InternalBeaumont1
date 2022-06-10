@@ -1,1 +1,0 @@
-define({_widgetLabel:"Skiller",quickStyleItem:"Hurtigstil {index}"});

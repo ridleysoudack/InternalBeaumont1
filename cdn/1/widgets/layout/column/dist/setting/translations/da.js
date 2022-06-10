@@ -1,1 +1,0 @@
-define({verticalAlign:"Lodret justering",spaceAround:"Afstand omkring",spaceBetween:"Afstand mellem",spaceEvenly:"Lige stor afstand",horizontalAlign:"Vandret justering",scrollable:"Kan rulle"});

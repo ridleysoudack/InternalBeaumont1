@@ -1,1 +1,0 @@
-define({_widgetLabel:"Diagramă",datalimitedTip:"Diagramele cu bare sau coloane sunt limitate la 1.000 bare în total. Filtrați sau reînsumați datele și încercați din nou.",pieDatalimitedTip:"Nu se poate reda informația, prea multe categorii. Diagrama radială este limitată la 300 de categorii maximum.",dataEmptyTip:"Nu au fost găsite date."});

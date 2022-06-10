@@ -1,1 +1,0 @@
-define({_widgetLabel:"Ogranicznik",quickStyleItem:"Szybki styl {index}"});

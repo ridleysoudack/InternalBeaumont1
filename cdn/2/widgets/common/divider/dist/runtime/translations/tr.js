@@ -1,1 +1,0 @@
-define({_widgetLabel:"Bölücü",quickStyleItem:"Hızlı stil {index}"});

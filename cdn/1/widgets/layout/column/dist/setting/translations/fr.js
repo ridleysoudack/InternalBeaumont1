@@ -1,1 +1,0 @@
-define({verticalAlign:"Alignement vertical",spaceAround:"Espacer autour",spaceBetween:"Espacer entre",spaceEvenly:"Espacer uniformément",horizontalAlign:"Alignement horizontal",scrollable:"Déroulant"});

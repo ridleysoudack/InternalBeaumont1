@@ -1,1 +1,0 @@
-define({verticalAlign:"Căn dọc",spaceAround:"Cách xung quanh",spaceBetween:"Cách giữa",spaceEvenly:"Cách đều",horizontalAlign:"Căn ngang",scrollable:"Có thể cuộn"});
