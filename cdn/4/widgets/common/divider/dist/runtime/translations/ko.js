@@ -1,1 +1,0 @@
-define({_widgetLabel:"구분선",quickStyleItem:"빠른 스타일 {index}"});

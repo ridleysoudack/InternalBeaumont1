@@ -1,1 +1,0 @@
-define({_widgetLabel:"Divisor",quickStyleItem:"Estilo rápido {index}"});

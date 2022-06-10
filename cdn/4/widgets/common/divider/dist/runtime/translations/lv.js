@@ -1,1 +1,0 @@
-define({_widgetLabel:"Atdalītājs",quickStyleItem:"Ātrais stils {index}"});

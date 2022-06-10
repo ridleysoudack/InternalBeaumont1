@@ -1,1 +1,0 @@
-define({_widgetLabel:"分隔物",quickStyleItem:"快速樣式 {index}"});
