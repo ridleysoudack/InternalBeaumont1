@@ -490,7 +490,8 @@
             "width": "394px",
             "height": 189
           },
-          "widgetId": "widget_70"
+          "widgetId": "widget_70",
+          "isPending": true
         }
       }
     },
@@ -826,35 +827,9 @@
     "layout_30": {
       "type": "FIXED",
       "order": [
-        "5",
         "8"
       ],
       "content": {
-        "5": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0.0%",
-            "right": "42.4%",
-            "top": "58.8%",
-            "bottom": "0.0%",
-            "width": "100.00%",
-            "height": "334px"
-          },
-          "widgetId": "widget_73",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false,
-            "heightMode": "fixed",
-            "aspectRatio": 0.36
-          },
-          "isPending": false
-        },
         "8": {
           "type": "WIDGET",
           "bbox": {
@@ -1056,9 +1031,9 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "0.0%",
-            "bottom": "20.2%",
+            "bottom": "24.5%",
             "width": "100.0%",
-            "height": "79.8%"
+            "height": "75.5%"
           },
           "widgetId": "widget_50",
           "setting": {
@@ -1073,20 +1048,21 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
+            "left": "15px",
+            "right": "15px",
             "top": "75.4%",
-            "bottom": "3.0%",
-            "width": "100.0%",
-            "height": "21.6%"
+            "bottom": "5.4%",
+            "width": "92.5%",
+            "height": "130.00px"
           },
           "widgetId": "widget_158",
           "setting": {
             "autoProps": {
-              "left": true,
-              "right": false,
+              "left": false,
+              "right": true,
               "top": true,
-              "bottom": false
+              "bottom": false,
+              "width": "STRETCH"
             }
           }
         }
@@ -1302,12 +1278,6 @@
         "0"
       ]
     },
-    "layout_47": {
-      "type": "FIXED",
-      "label": "Default",
-      "content": {},
-      "order": []
-    },
     "layout_48": {
       "type": "FIXED",
       "label": "Default",
@@ -1361,10 +1331,35 @@
               "bottom": false
             }
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15.00px",
+            "right": "15.00px",
+            "top": "71.6%",
+            "bottom": "5.00%",
+            "width": "90.0%",
+            "height": "110.00px"
+          },
+          "widgetId": "widget_184",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": true
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_50": {
@@ -2668,22 +2663,46 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "0.0%",
-            "bottom": "0.0%",
+            "bottom": "25.4%",
             "width": "100.0%",
-            "height": "100.0%"
+            "height": "74.6%"
           },
           "widgetId": "widget_50",
           "setting": {
             "autoProps": {
               "right": false,
               "left": true,
-              "top": true,
-              "bottom": false
+              "top": false,
+              "bottom": true
             }
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "74.6%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "25.4%"
+          },
+          "widgetId": "widget_158",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "order": [
+        "1",
         "0"
       ]
     },
@@ -4123,80 +4142,56 @@
       "type": "FIXED",
       "label": "Map FixedLayout",
       "content": {
-        "0": {
+        "3": {
           "type": "WIDGET",
           "bbox": {
-            "left": "76.1%",
-            "right": "-0.1%",
-            "top": "0.0%",
-            "bottom": "90.9%",
-            "width": "360px",
-            "height": "92px"
-          },
-          "widgetId": "widget_33",
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
-          },
-          "isPending": true
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0.60%",
-            "right": "83.2%",
-            "top": "0.79%",
-            "bottom": "88.9%",
-            "width": "242px",
-            "height": "104px"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "48.6%",
+            "bottom": "20.4%",
+            "width": "100.0%",
+            "height": "30.9%"
           },
           "widgetId": "widget_57",
           "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": false,
-              "bottom": true
-            },
             "vCenter": false,
-            "hCenter": false
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
           },
           "isPending": true
         },
-        "2": {
+        "4": {
           "type": "WIDGET",
           "bbox": {
-            "left": "2.0%",
-            "right": "60.6%",
-            "top": "4.5%",
-            "bottom": "71.6%",
-            "width": "134px",
-            "height": "54px"
+            "left": "6px",
+            "right": "53.6%",
+            "top": "6.00px",
+            "bottom": "74.0%",
+            "width": "160px",
+            "height": "50px"
           },
-          "widgetId": "widget_148",
+          "widgetId": "widget_182",
           "setting": {
+            "vCenter": false,
+            "hCenter": false,
             "autoProps": {
-              "left": false,
               "right": true,
+              "left": false,
               "top": false,
               "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
+            }
           },
           "isPending": false
         }
       },
       "order": [
-        "0",
-        "1",
-        "2"
+        "3",
+        "4"
       ]
     },
     "layout_118": {
@@ -4610,15 +4605,17 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "height": "STRETCH"
-            }
+              "height": "AUTO"
+            },
+            "maintainedByLayout": true
           },
           "bbox": {
-            "left": "0px",
-            "width": "12px",
-            "height": "49px"
+            "left": 0,
+            "width": 12,
+            "height": "381px"
           },
-          "widgetId": "widget_50"
+          "widgetId": "widget_185",
+          "isPending": false
         }
       },
       "order": [
@@ -5338,13 +5335,22 @@
           },
           "widgetId": "widget_153",
           "isPending": false
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "352px",
+            "height": 100
+          },
+          "widgetId": "widget_33"
         }
       },
       "order": [
         "0",
         "1",
         "2",
-        "3"
+        "3",
+        "4"
       ]
     },
     "layout_150": {
@@ -6272,6 +6278,40 @@
       "order": [
         "0"
       ]
+    },
+    "layout_174": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "width": "360px",
+            "height": 177
+          },
+          "widgetId": "widget_158"
+        },
+        "1": {
+          "widgetId": "widget_50",
+          "type": "WIDGET",
+          "bbox": {
+            "width": "360px",
+            "height": 217
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          }
+        }
+      },
+      "order": [
+        "1",
+        "0"
+      ]
     }
   },
   "exbVersion": "1.8.0",
@@ -6660,7 +6700,7 @@
       "version": "1.8.0",
       "label": "Text 6",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--primary); font-size: 24px;\">City of Beaumont</span></p><p style=\"text-align: center;\"><strong style=\"color: var(--primary); font-size: 24px;\">Urban Forest Dashboard</strong></p><p><br></p><p><span style=\"color: var(--dark);\">This dashboard is designed to allow you to more easily interact with the City of Beaumont tree inventory, track and manage service requests, and explore canopy coverage breakdowns by neighbourhood, park, and street.</span></p><p><br></p><p><span style=\"color: var(--dark); font-size: 16px;\">Beaumont's urban forest currently includes:</span></p><p><br></p><p><strong style=\"color: var(--dark);\"><exp data-uniqueid=\"66bce2ce_1115_3b38_8055_32f750a6b968\" data-dsid=\"dataSource_1-181347a484e-layer-3\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BOBJECTID%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOBJECTID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a484e-layer-3%22%2C%22jimuFieldName%22%3A%22OBJECTID%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿COUNT({OBJECTID})﻿﻿</span>﻿</exp></strong><span style=\"color: var(--dark);\">  </span>\t\t\t<span style=\"color: var(--dark);\">Publicly Managed Trees</span></p><p><br></p><p><strong style=\"color: var(--dark);\"><exp data-uniqueid=\"ef58bac6_4e7a_52ad_2aa4_ad9b568378e0\" data-dsid=\"dataSource_1-181347a9a80-layer-5\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BName_Speci%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BName_Speci%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a9a80-layer-5%22%2C%22jimuFieldName%22%3A%22Name_Speci%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿COUNT({Name_Speci})﻿﻿﻿﻿﻿</span>﻿</exp></strong><span style=\"color: var(--dark);\">\t</span>\t\t<span style=\"color: var(--dark);\">Different Species</span></p><p><br></p><p><strong style=\"color: var(--dark);\"><exp data-uniqueid=\"2c9dc848_b95c_7c4a_2754_2bdf9f8aaa30\" data-dsid=\"dataSource_1-181347a484e-layer-3,dataSource_1-181347a7ca1-layer-4,dataSource_1-1813491a77a-layer-5\" data-expression=\"%7B%22name%22%3A%22CurrentCanopy%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a484e-layer-3%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1813491a77a-layer-5%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿CurrentCanopy﻿﻿﻿﻿﻿</span>﻿</exp>%  </strong><span style=\"color: var(--dark);\">\t</span>\t<span style=\"color: var(--dark);\">Canopy Coverage (Current Boundary)</span></p><p><br></p><p><strong style=\"color: var(--dark);\"><exp data-uniqueid=\"26c9dcdc_2abd_4b26_8cab_1b9e01514c28\" data-dsid=\"dataSource_6-1813511ea1f-layer-6,dataSource_6-181352a0bdb-layer-7,dataSource_6-181350d393f-layer-5\" data-expression=\"%7B%22name%22%3A%222017Canopy%25%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-1813511ea1f-layer-6%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-181352a0bdb-layer-7%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-181350d393f-layer-5%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿2017Canopy%﻿﻿﻿﻿</span>﻿</exp>%</strong><span style=\"color: var(--dark);\">  \t\tCanopy Coverage (2017 Boundary)</span></p><p><br></p><p><strong style=\"color: var(--warning);\">To see information on a specific tree, click \"Tree Info\" above!</strong></p><p><strong>Note</strong>: The tree data shown here is based off of 2017 LiDAR data and 2021 aerial imagery, and is not guaranteed to be accurate.</p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 24px; color: var(--primary);\">City of Beaumont</span></p><p style=\"text-align: center;\"><strong style=\"font-size: 24px; color: var(--primary);\">Urban Forest Dashboard</strong></p><p><br></p><p><span style=\"color: var(--dark);\">This dashboard is designed to allow you to more easily interact with the City of Beaumont tree inventory, track and manage service requests, and explore canopy coverage breakdowns by neighbourhood, park, and street.</span></p><p><br></p><p><span style=\"font-size: 16px; color: var(--dark);\">Beaumont's urban forest currently includes:</span></p><p><br></p><p><strong style=\"color: var(--dark);\"><exp data-uniqueid=\"66bce2ce_1115_3b38_8055_32f750a6b968\" data-dsid=\"dataSource_1-181347a484e-layer-3\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BOBJECTID%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOBJECTID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a484e-layer-3%22%2C%22jimuFieldName%22%3A%22OBJECTID%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿COUNT({OBJECTID})﻿﻿﻿</span>﻿</exp></strong><span style=\"color: var(--dark);\">  </span>\t\t\t<span style=\"color: var(--dark);\">Publicly Managed Trees</span></p><p><br></p><p><strong style=\"color: var(--dark);\"><exp data-uniqueid=\"ef58bac6_4e7a_52ad_2aa4_ad9b568378e0\" data-dsid=\"dataSource_1-181347a9a80-layer-5\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BName_Speci%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BName_Speci%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a9a80-layer-5%22%2C%22jimuFieldName%22%3A%22Name_Speci%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿COUNT({Name_Speci})﻿﻿﻿﻿﻿﻿</span>﻿</exp></strong><span style=\"color: var(--dark);\">\t</span>\t\t\t<span style=\"color: var(--dark);\">Different Species</span></p><p><br></p><p><strong style=\"color: var(--dark);\"><exp data-uniqueid=\"2c9dc848_b95c_7c4a_2754_2bdf9f8aaa30\" data-dsid=\"dataSource_1-181347a484e-layer-3,dataSource_1-181347a7ca1-layer-4,dataSource_1-1813491a77a-layer-5\" data-expression=\"%7B%22name%22%3A%22CurrentCanopy%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a484e-layer-3%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1813491a77a-layer-5%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿CurrentCanopy﻿﻿﻿﻿﻿﻿</span>﻿</exp>%  </strong><span style=\"color: var(--dark);\">\t</span>\t<span style=\"color: var(--dark);\">Canopy Coverage (Current Boundary)</span></p><p><br></p><p><strong style=\"color: var(--dark);\"><exp data-uniqueid=\"26c9dcdc_2abd_4b26_8cab_1b9e01514c28\" data-dsid=\"dataSource_6-1813511ea1f-layer-6,dataSource_6-181352a0bdb-layer-7,dataSource_6-181350d393f-layer-5\" data-expression=\"%7B%22name%22%3A%222017Canopy%25%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-1813511ea1f-layer-6%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-181352a0bdb-layer-7%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-181350d393f-layer-5%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿2017Canopy%﻿﻿﻿﻿﻿</span>﻿</exp>%</strong><span style=\"color: var(--dark);\">  \t\tCanopy Coverage (2017 Boundary)</span></p><p><br></p><p><strong style=\"color: var(--warning);\">To see information on a specific tree, click \"Tree Info\" above!</strong></p><p><strong>Note</strong>: The tree data shown here is based off of 2017 LiDAR data and 2021 aerial imagery, and is not guaranteed to be accurate.</p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -6757,7 +6797,7 @@
               "orderByFields": [
                 "OBJECTID_count DESC"
               ],
-              "pageSize": 8
+              "pageSize": 5
             }
           },
           "series": [
@@ -7136,7 +7176,8 @@
           "rootDataSourceId": "dataSource_3",
           "dataViewId": "selection"
         }
-      ]
+      ],
+      "enableDataAction": false
     },
     "widget_32": {
       "uri": "widgets/common/edit/",
@@ -9777,17 +9818,6 @@
         }
       },
       "enableDataAction": false
-    },
-    "widget_73": {
-      "uri": "widgets/layout/fixed/",
-      "version": "1.8.0",
-      "label": "Bottom Panel_Neigh 2",
-      "id": "widget_73",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_47"
-        }
-      }
     },
     "widget_74": {
       "uri": "widgets/common/table/",
@@ -12556,88 +12586,6 @@
       },
       "id": "widget_147"
     },
-    "widget_148": {
-      "uri": "widgets/common/text/",
-      "version": "1.8.0",
-      "label": "Cover Percent Mobile",
-      "config": {
-        "text": "<p><span style=\"color: rgb(255, 255, 255);\">Trees: </span><strong style=\"color: var(--info);\"><exp data-uniqueid=\"ebf9ffbc_2330_f775_58c4_8e2b61febbb2\" data-dsid=\"dataSource_3-18130eba569-layer-6\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BOBJECTID%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOBJECTID%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18130eba569-layer-6%22%2C%22jimuFieldName%22%3A%22OBJECTID%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿COUNT({OBJECTID})﻿﻿</span>﻿</exp></strong><span style=\"color: var(--info);\">  </span></p><p><span style=\"color: rgb(255, 255, 255);\">Canopy Cover: </span><strong style=\"font-size: 16px; color: var(--info);\"><exp data-uniqueid=\"1e78a506_9bda_87dc_a9bc_789b5da8999f\" data-dsid=\"dataSource_3-18130e2a5fd-layer-5,dataSource_3-181311727a5-layer-6,dataSource_3-1813973658c-layer-6,dataSource_3-18139736796-layer-7,dataSource_3-18139736b84-layer-8,dataSource_3-1813070891d-layer-5\" data-expression=\"%7B%22name%22%3A%22CanopyCover%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18130e2a5fd-layer-5%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-181311727a5-layer-6%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-1813973658c-layer-6%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18139736796-layer-7%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18139736b84-layer-8%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-1813070891d-layer-5%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿CanopyCover﻿</span>﻿</exp>%</strong></p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_148",
-      "style": {
-        "background": {
-          "color": "rgba(85,162,105,0.81)",
-          "fillType": "fit",
-          "image": {
-            "url": ""
-          }
-        }
-      },
-      "useDataSourcesEnabled": true,
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_3-1813070891d-layer-5",
-          "mainDataSourceId": "dataSource_3-1813070891d-layer-5",
-          "rootDataSourceId": "dataSource_3",
-          "fields": [
-            "Shape__Area"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_3-18130e2a5fd-layer-5",
-          "mainDataSourceId": "dataSource_3-18130e2a5fd-layer-5",
-          "rootDataSourceId": "dataSource_3",
-          "fields": [
-            "Shape__Area"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_3-181311727a5-layer-6",
-          "mainDataSourceId": "dataSource_3-181311727a5-layer-6",
-          "rootDataSourceId": "dataSource_3",
-          "fields": [
-            "Shape__Area"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_3-1813973658c-layer-6",
-          "mainDataSourceId": "dataSource_3-1813973658c-layer-6",
-          "rootDataSourceId": "dataSource_3",
-          "fields": [
-            "AnalysisArea"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_3-18139736796-layer-7",
-          "mainDataSourceId": "dataSource_3-18139736796-layer-7",
-          "rootDataSourceId": "dataSource_3",
-          "fields": [
-            "AnalysisArea"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_3-18139736b84-layer-8",
-          "mainDataSourceId": "dataSource_3-18139736b84-layer-8",
-          "rootDataSourceId": "dataSource_3",
-          "fields": [
-            "AnalysisArea"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_3-18130eba569-layer-6",
-          "mainDataSourceId": "dataSource_3-18130eba569-layer-6",
-          "rootDataSourceId": "dataSource_3",
-          "fields": [
-            "OBJECTID"
-          ]
-        }
-      ]
-    },
     "widget_149": {
       "uri": "widgets/layout/column/",
       "version": "1.8.0",
@@ -13264,9 +13212,9 @@
     "widget_158": {
       "uri": "widgets/common/text/",
       "version": "1.8.0",
-      "label": "Text 8",
+      "label": "Neighbourhood Canopy Predictions",
       "config": {
-        "text": "<p>Current canopy cover: <exp data-uniqueid=\"56523ad7_a81e_75f3_ab43_4a5011cf52c5\" data-dsid=\"dataSource_1-181347a484e-layer-3,dataSource_1-181347a7ca1-layer-4,dataSource_5-18133ee1ad7-layer-4\" data-expression=\"%7B%22name%22%3A%22Present%20Calc%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a484e-layer-3-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_5-18133ee1ad7-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿Present Calc﻿</span>﻿</exp> %</p><p><exp data-uniqueid=\"34d98002_974c_b460_47ad_d146c9c5c0c0\" data-dsid=\"dataSource_1-181347a7ca1-layer-4,dataSource_1-1814a3d5318-layer-6,dataSource_5-18133ee1ad7-layer-4\" data-expression=\"%7B%22name%22%3A%225%20Years%20Calc%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1814a3d5318-layer-6-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_5-18133ee1ad7-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿5 Years Calc﻿﻿﻿</span>﻿</exp> </p><p><exp data-uniqueid=\"1334e4c3_4ad0_7be1_f5a2_b85fa24f0929\" data-dsid=\"dataSource_1-181347a7ca1-layer-4,dataSource_1-1814a3d59fb-layer-7,dataSource_5-18133ee1ad7-layer-4\" data-expression=\"%7B%22name%22%3A%2210%20Years%20Calc%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1814a3d59fb-layer-7-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_5-18133ee1ad7-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿10 Years Calc﻿﻿</span>﻿</exp>   </p><p><exp data-uniqueid=\"0253a1eb_d7f9_5bb3_631b_00e174cd0620\" data-dsid=\"dataSource_1-181347a7ca1-layer-4,dataSource_1-1814a3d63ea-layer-8,dataSource_5-18133ee1ad7-layer-4\" data-expression=\"%7B%22name%22%3A%2215%20Years%20Calc%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1814a3d63ea-layer-8-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_5-18133ee1ad7-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿15 Years Calc﻿﻿﻿</span>﻿</exp></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 20px; color: var(--primary);\">Current canopy cover:</span><strong style=\"font-size: 20px; color: var(--primary);\"> </strong><strong style=\"color: var(--secondary); font-size: 20px;\"><exp data-uniqueid=\"4f6784d8_eb49_a048_19d0_fa3ac49baeff\" data-dsid=\"dataSource_1-181347a484e-layer-3,dataSource_1-181347a7ca1-layer-4,dataSource_5-18133ee1ad7-layer-4\" data-expression=\"%7B%22name%22%3A%22Select%20Feature%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a484e-layer-3-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_5-18133ee1ad7-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Select Feature﻿﻿﻿﻿</span>﻿</exp> %</strong></p><p style=\"text-align: center;\"><span style=\"color: var(--primary); font-size: 20px;\">5 Years of Growth:</span><strong style=\"color: var(--primary); font-size: 20px;\"> </strong><strong style=\"font-size: 20px;\"><exp data-uniqueid=\"daa9799b_a468_452f_fb79_d3e47fb6047c\" data-dsid=\"dataSource_1-181347a7ca1-layer-4,dataSource_1-1814a3d5318-layer-6,dataSource_5-18133ee1ad7-layer-4\" data-expression=\"%7B%22name%22%3A%22Select%20Feature%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1814a3d5318-layer-6-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_5-18133ee1ad7-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Select Feature﻿﻿﻿﻿</span>﻿</exp> %</strong></p><p style=\"text-align: center;\"><span style=\"color: var(--primary); font-size: 20px;\">10 Years of Growth:</span><strong style=\"color: var(--primary); font-size: 20px;\"> </strong><strong style=\"font-size: 20px;\"><exp data-uniqueid=\"34a3c495_9ecf_5b29_8329_ff50f2894368\" data-dsid=\"dataSource_1-181347a7ca1-layer-4,dataSource_1-1814a3d59fb-layer-7,dataSource_5-18133ee1ad7-layer-4\" data-expression=\"%7B%22name%22%3A%22Select%20Feature%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1814a3d59fb-layer-7-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_5-18133ee1ad7-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Select Feature﻿﻿﻿﻿</span>﻿</exp> %</strong></p><p style=\"text-align: center;\"><span style=\"color: var(--primary); font-size: 20px;\">15 Years of Growth:</span><strong style=\"color: var(--primary); font-size: 20px;\"> </strong><strong style=\"font-size: 20px; color: rgb(0, 0, 0);\"><exp data-uniqueid=\"744022cd_328a_7f0c_6360_70f69e7540cc\" data-dsid=\"dataSource_1-181347a7ca1-layer-4,dataSource_1-1814a3d63ea-layer-8,dataSource_5-18133ee1ad7-layer-4\" data-expression=\"%7B%22name%22%3A%22Select%20Feature%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1814a3d63ea-layer-8-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_5-18133ee1ad7-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Select Feature﻿﻿﻿﻿</span>﻿</exp> %</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -15157,6 +15105,192 @@
           ]
         }
       ]
+    },
+    "widget_182": {
+      "uri": "widgets/common/text/",
+      "version": "1.8.0",
+      "label": "Cover Percent Mobile",
+      "config": {
+        "text": "<p><span style=\"color: rgb(255, 255, 255);\">Trees: </span><strong style=\"color: var(--info);\"><exp data-uniqueid=\"ebf9ffbc_2330_f775_58c4_8e2b61febbb2\" data-dsid=\"dataSource_3-18130eba569-layer-6\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BOBJECTID%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOBJECTID%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18130eba569-layer-6%22%2C%22jimuFieldName%22%3A%22OBJECTID%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿COUNT({OBJECTID})﻿﻿﻿﻿﻿</span>﻿</exp></strong><span style=\"color: var(--info);\">  </span></p><p><span style=\"color: rgb(255, 255, 255);\">Canopy Cover: </span><strong style=\"font-size: 16px; color: var(--info);\"><exp data-uniqueid=\"a326613a_8366_58a2_065a_e3db9ea0fc7a\" data-dsid=\"dataSource_3-18130e2a5fd-layer-5,dataSource_3-181311727a5-layer-6,dataSource_3-18148a3cfd9-layer-9,dataSource_3-18148a3d32d-layer-10,dataSource_3-18148a3d5b2-layer-11,dataSource_3-1813070891d-layer-5\" data-expression=\"%7B%22name%22%3A%22CanopyCover%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18130e2a5fd-layer-5%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-181311727a5-layer-6%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18148a3cfd9-layer-9%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18148a3d32d-layer-10%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-18148a3d5b2-layer-11%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-1813070891d-layer-5%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%22100%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿CanopyCover﻿﻿﻿</span>﻿</exp>%</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_182",
+      "style": {
+        "background": {
+          "color": "rgba(85,162,105,0.93)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_3-1813070891d-layer-5",
+          "mainDataSourceId": "dataSource_3-1813070891d-layer-5",
+          "rootDataSourceId": "dataSource_3",
+          "fields": [
+            "Shape__Area"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_3-18130e2a5fd-layer-5",
+          "mainDataSourceId": "dataSource_3-18130e2a5fd-layer-5",
+          "rootDataSourceId": "dataSource_3",
+          "fields": [
+            "Shape__Area"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_3-181311727a5-layer-6",
+          "mainDataSourceId": "dataSource_3-181311727a5-layer-6",
+          "rootDataSourceId": "dataSource_3",
+          "fields": [
+            "Shape__Area"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_3-1813973658c-layer-6",
+          "mainDataSourceId": "dataSource_3-1813973658c-layer-6",
+          "rootDataSourceId": "dataSource_3"
+        },
+        {
+          "dataSourceId": "dataSource_3-18139736796-layer-7",
+          "mainDataSourceId": "dataSource_3-18139736796-layer-7",
+          "rootDataSourceId": "dataSource_3"
+        },
+        {
+          "dataSourceId": "dataSource_3-18139736b84-layer-8",
+          "mainDataSourceId": "dataSource_3-18139736b84-layer-8",
+          "rootDataSourceId": "dataSource_3"
+        },
+        {
+          "dataSourceId": "dataSource_3-18130eba569-layer-6",
+          "mainDataSourceId": "dataSource_3-18130eba569-layer-6",
+          "rootDataSourceId": "dataSource_3",
+          "fields": [
+            "OBJECTID"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_3-18148a3cfd9-layer-9",
+          "mainDataSourceId": "dataSource_3-18148a3cfd9-layer-9",
+          "rootDataSourceId": "dataSource_3",
+          "fields": [
+            "AnalysisArea"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_3-18148a3d32d-layer-10",
+          "mainDataSourceId": "dataSource_3-18148a3d32d-layer-10",
+          "rootDataSourceId": "dataSource_3",
+          "fields": [
+            "AnalysisArea"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_3-18148a3d5b2-layer-11",
+          "mainDataSourceId": "dataSource_3-18148a3d5b2-layer-11",
+          "rootDataSourceId": "dataSource_3",
+          "fields": [
+            "AnalysisArea"
+          ]
+        }
+      ]
+    },
+    "widget_184": {
+      "uri": "widgets/common/text/",
+      "version": "1.8.0",
+      "label": "Text 12",
+      "config": {
+        "text": "<p><span style=\"font-size: 18px; color: var(--primary);\">Current canopy cover:</span><strong style=\"font-size: 18px; color: var(--primary);\"> </strong><strong style=\"color: var(--secondary); font-size: 18px;\"><exp data-uniqueid=\"96b63af1_7cbb_8a4e_434f_1d54242bdbcb\" data-dsid=\"dataSource_15-181347a7ca1-layer-4,dataSource_15-181347a484e-layer-3,dataSource_2-18134563b92-layer-37\" data-expression=\"%7B%22name%22%3A%22Select%20Features%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-181347a484e-layer-3-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Length%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-18134563b92-layer-37-selection%22%2C%22jimuFieldName%22%3A%22Shape__Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">Select Features</span>﻿</exp> </strong><strong style=\"color: var(--secondary); font-size: 16px;\">m2/m</strong></p><p><span style=\"color: var(--primary); font-size: 18px;\">5 Years of Growth:</span><strong style=\"color: var(--primary); font-size: 18px;\"> </strong><strong style=\"font-size: 18px;\"><exp data-uniqueid=\"8a562dfc_9ecd_a1dd_fb88_f0c0de83dafc\" data-dsid=\"dataSource_15-181347a7ca1-layer-4,dataSource_15-1814a3d5318-layer-6,dataSource_2-18134563b92-layer-37\" data-expression=\"%7B%22name%22%3A%22Select%20Features%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-1814a3d5318-layer-6-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Length%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-18134563b92-layer-37-selection%22%2C%22jimuFieldName%22%3A%22Shape__Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">Select Features</span>﻿</exp> </strong><strong style=\"font-size: 16px;\">m2/m</strong></p><p><span style=\"color: var(--primary); font-size: 18px;\">10 Years of Growth:</span><strong style=\"color: var(--primary); font-size: 18px;\"> </strong><strong style=\"font-size: 18px;\"><exp data-uniqueid=\"27c85d01_8ca3_a5d2_7927_83fd24c542f2\" data-dsid=\"dataSource_15-181347a7ca1-layer-4,dataSource_15-1814a3d59fb-layer-7,dataSource_2-18134563b92-layer-37\" data-expression=\"%7B%22name%22%3A%22Select%20Features%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-1814a3d59fb-layer-7-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Length%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-18134563b92-layer-37-selection%22%2C%22jimuFieldName%22%3A%22Shape__Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">Select Features</span>﻿</exp> </strong><strong style=\"font-size: 16px;\">m2/m﻿</strong><strong style=\"font-size: 18px;\">  </strong><span style=\"font-size: 18px;\"> </span></p><p><span style=\"color: var(--primary); font-size: 18px;\">15 Years of Growth:</span><strong style=\"color: var(--primary); font-size: 18px;\"> </strong><strong style=\"font-size: 18px; color: rgb(0, 0, 0);\"><exp data-uniqueid=\"96ca209d_1d63_3e19_cbf9_23c7d22ffb9e\" data-dsid=\"dataSource_15-181347a7ca1-layer-4,dataSource_15-1814a3d63ea-layer-8,dataSource_2-18134563b92-layer-37\" data-expression=\"%7B%22name%22%3A%22Select%20Features%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Area%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-181347a7ca1-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Shape__Area%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArea%20in%20Square%20Kilometers%7D%22%2C%22dataSourceId%22%3A%22dataSource_15-1814a3d63ea-layer-8-selection%22%2C%22jimuFieldName%22%3A%22AnalysisArea%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22*%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%221000000%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShape__Length%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-18134563b92-layer-37-selection%22%2C%22jimuFieldName%22%3A%22Shape__Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A2%7D%7D\">﻿<span contenteditable=\"false\">Select Features</span>﻿</exp> </strong><strong style=\"font-size: 16px; color: rgb(0, 0, 0);\">m2/m</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_184",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-18134563b92-layer-37",
+          "mainDataSourceId": "dataSource_2-18134563b92-layer-37",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Shape__Length"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_15-181347a7ca1-layer-4",
+          "mainDataSourceId": "dataSource_15-181347a7ca1-layer-4",
+          "rootDataSourceId": "dataSource_15",
+          "fields": [
+            "Shape__Area"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_15-181347a484e-layer-3",
+          "mainDataSourceId": "dataSource_15-181347a484e-layer-3",
+          "rootDataSourceId": "dataSource_15",
+          "fields": [
+            "Shape__Area"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_15-1814a3d5318-layer-6",
+          "mainDataSourceId": "dataSource_15-1814a3d5318-layer-6",
+          "rootDataSourceId": "dataSource_15",
+          "fields": [
+            "AnalysisArea"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_15-1814a3d59fb-layer-7",
+          "mainDataSourceId": "dataSource_15-1814a3d59fb-layer-7",
+          "rootDataSourceId": "dataSource_15",
+          "fields": [
+            "AnalysisArea"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_15-1814a3d63ea-layer-8",
+          "mainDataSourceId": "dataSource_15-1814a3d63ea-layer-8",
+          "rootDataSourceId": "dataSource_15",
+          "fields": [
+            "AnalysisArea"
+          ]
+        }
+      ]
+    },
+    "widget_185": {
+      "id": "widget_185",
+      "uri": "widgets/layout/column/",
+      "version": "1.8.0",
+      "label": "Column 17",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_174"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -15374,30 +15508,9 @@
               "label": "View for empty selection",
               "where": {
                 "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "OBJECTID",
-                    "operator": "NUMBER_OPERATOR_IS_AT_LEAST",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "UNIQUE",
-                      "inputEditor": "SIMPLE_SELECT",
-                      "value": [
-                        {
-                          "value": 1,
-                          "label": "1"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((OBJECTID >= 1))",
-                "displaySQL": "(OBJECTID >= 1)"
+                "parts": [],
+                "sql": "",
+                "displaySQL": ""
               },
               "pageSize": 10000
             }
@@ -15450,37 +15563,13 @@
             "no_selection": {
               "id": "no_selection",
               "label": "View for empty selection",
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "OBJECTID",
-                    "operator": "NUMBER_OPERATOR_IS_BETWEEN",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "USER_INPUT",
-                      "inputEditor": "DOUBLE_NUMBER_SELECTOR",
-                      "value": [
-                        {
-                          "value": 1,
-                          "label": "1"
-                        },
-                        {
-                          "value": 10000,
-                          "label": "10000"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((OBJECTID BETWEEN 1 AND 10000))",
-                "displaySQL": "(OBJECTID is between 1 and 10000)"
-              }
+              "orderBy": [
+                {
+                  "jimuFieldName": "Shape__Area",
+                  "order": "ASC"
+                }
+              ],
+              "maximum": 1
             }
           }
         },
@@ -15495,7 +15584,14 @@
             "no_selection": {
               "id": "no_selection",
               "label": "View for empty selection",
-              "pageSize": 10000
+              "pageSize": 10000,
+              "orderBy": [
+                {
+                  "jimuFieldName": "AnalysisArea",
+                  "order": "ASC"
+                }
+              ],
+              "maximum": 1
             }
           }
         },
@@ -15505,7 +15601,21 @@
           "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Canopy_15yr_dis/FeatureServer/0",
           "portalUrl": "https://www.arcgis.com",
           "itemId": "cf72b1cfc0e14bfabab6017985eace9d",
-          "geometryType": "esriGeometryPolygon"
+          "geometryType": "esriGeometryPolygon",
+          "dataViews": {
+            "no_selection": {
+              "id": "no_selection",
+              "label": "View for empty selection",
+              "pageSize": 10000,
+              "orderBy": [
+                {
+                  "jimuFieldName": "AnalysisArea",
+                  "order": "ASC"
+                }
+              ],
+              "maximum": 1
+            }
+          }
         },
         "1814a3d59fb-layer-7": {
           "id": "dataSource_1-1814a3d59fb-layer-7",
@@ -15513,7 +15623,21 @@
           "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Canopy_10yr_dis/FeatureServer/0",
           "portalUrl": "https://www.arcgis.com",
           "itemId": "a94cffcabe2040e58217999a71540a32",
-          "geometryType": "esriGeometryPolygon"
+          "geometryType": "esriGeometryPolygon",
+          "dataViews": {
+            "no_selection": {
+              "id": "no_selection",
+              "label": "View for empty selection",
+              "pageSize": 10000,
+              "orderBy": [
+                {
+                  "jimuFieldName": "AnalysisArea",
+                  "order": "ASC"
+                }
+              ],
+              "maximum": 1
+            }
+          }
         }
       },
       "label": "DataRefMap_MainandHood",
@@ -15787,6 +15911,62 @@
           "portalUrl": "https://www.arcgis.com",
           "itemId": "ca8c860ce88d4dd082179cea3f5b01f4",
           "geometryType": "esriGeometryPolygon"
+        },
+        "1814a3d5318-layer-6": {
+          "id": "dataSource_14-1814a3d5318-layer-6",
+          "type": "FEATURE_LAYER",
+          "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Canopy_5yr_dis/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "fa946e5f5b824805bf0acd4c933091fb",
+          "geometryType": "esriGeometryPolygon",
+          "dataViews": {
+            "no_selection": {
+              "id": "no_selection",
+              "label": "View for empty selection",
+              "pageSize": 1,
+              "orderBy": [
+                {
+                  "jimuFieldName": "AnalysisArea",
+                  "order": "ASC"
+                }
+              ],
+              "maximum": 1
+            },
+            "dataView_1": {
+              "id": "dataView_1",
+              "label": "Data view 1",
+              "orderBy": [
+                {
+                  "jimuFieldName": "AnalysisArea",
+                  "order": "ASC"
+                }
+              ],
+              "pageSize": 100,
+              "maximum": 1
+            }
+          }
+        },
+        "1814a3d63ea-layer-8": {
+          "id": "dataSource_14-1814a3d63ea-layer-8",
+          "type": "FEATURE_LAYER",
+          "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Canopy_15yr_dis/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "cf72b1cfc0e14bfabab6017985eace9d",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "1814a3d59fb-layer-7": {
+          "id": "dataSource_14-1814a3d59fb-layer-7",
+          "type": "FEATURE_LAYER",
+          "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Canopy_10yr_dis/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "a94cffcabe2040e58217999a71540a32",
+          "geometryType": "esriGeometryPolygon",
+          "dataViews": {
+            "no_selection": {
+              "id": "no_selection",
+              "label": "View for empty selection"
+            }
+          }
         }
       },
       "isHidden": false
@@ -15817,7 +15997,8 @@
           "dataViews": {
             "no_selection": {
               "id": "no_selection",
-              "label": "View for empty selection"
+              "label": "View for empty selection",
+              "pageSize": 100000
             }
           }
         },
@@ -15835,6 +16016,43 @@
           "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/TreeInvCanopyFinal2021_OnlineReady_Polys_view/FeatureServer/23",
           "portalUrl": "https://www.arcgis.com",
           "itemId": "ca8c860ce88d4dd082179cea3f5b01f4",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "1814a3d5318-layer-6": {
+          "id": "dataSource_15-1814a3d5318-layer-6",
+          "type": "FEATURE_LAYER",
+          "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Canopy_5yr_dis/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "fa946e5f5b824805bf0acd4c933091fb",
+          "geometryType": "esriGeometryPolygon",
+          "dataViews": {
+            "no_selection": {
+              "id": "no_selection",
+              "label": "View for empty selection",
+              "orderBy": [
+                {
+                  "jimuFieldName": "AnalysisArea",
+                  "order": "ASC"
+                }
+              ],
+              "maximum": 1
+            }
+          }
+        },
+        "1814a3d63ea-layer-8": {
+          "id": "dataSource_15-1814a3d63ea-layer-8",
+          "type": "FEATURE_LAYER",
+          "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Canopy_15yr_dis/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "cf72b1cfc0e14bfabab6017985eace9d",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "1814a3d59fb-layer-7": {
+          "id": "dataSource_15-1814a3d59fb-layer-7",
+          "type": "FEATURE_LAYER",
+          "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Canopy_10yr_dis/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "a94cffcabe2040e58217999a71540a32",
           "geometryType": "esriGeometryPolygon"
         }
       },
@@ -16347,6 +16565,33 @@
             "enabledDataRelationShip": true
           },
           "version": "1.8.0"
+        },
+        {
+          "actionId": "select-data-record-action-1655118231468",
+          "messageWidgetId": "widget_44",
+          "actionName": "select data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_5-18133ee1ad7-layer-4",
+              "mainDataSourceId": "dataSource_5-18133ee1ad7-layer-4",
+              "rootDataSourceId": "dataSource_5",
+              "fields": [
+                "Full_Name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-181347a9a80-layer-5",
+              "mainDataSourceId": "dataSource_1-181347a9a80-layer-5",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "HoodName"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.8.0"
         }
       ]
     },
@@ -16550,8 +16795,8 @@
           "config": {
             "messageUseDataSource": null,
             "actionUseDataSource": {
-              "dataSourceId": "dataSource_3-1813973658c-layer-6",
-              "mainDataSourceId": "dataSource_3-1813973658c-layer-6",
+              "dataSourceId": "dataSource_3-18148a3cfd9-layer-9",
+              "mainDataSourceId": "dataSource_3-18148a3cfd9-layer-9",
               "rootDataSourceId": "dataSource_3"
             },
             "sqlExprObj": null,
@@ -16568,8 +16813,8 @@
           "config": {
             "messageUseDataSource": null,
             "actionUseDataSource": {
-              "dataSourceId": "dataSource_3-18139736796-layer-7",
-              "mainDataSourceId": "dataSource_3-18139736796-layer-7",
+              "dataSourceId": "dataSource_3-18148a3d32d-layer-10",
+              "mainDataSourceId": "dataSource_3-18148a3d32d-layer-10",
               "rootDataSourceId": "dataSource_3"
             },
             "sqlExprObj": null,
@@ -16586,8 +16831,8 @@
           "config": {
             "messageUseDataSource": null,
             "actionUseDataSource": {
-              "dataSourceId": "dataSource_3-18139736b84-layer-8",
-              "mainDataSourceId": "dataSource_3-18139736b84-layer-8",
+              "dataSourceId": "dataSource_3-18148a3d5b2-layer-11",
+              "mainDataSourceId": "dataSource_3-18148a3d5b2-layer-11",
               "rootDataSourceId": "dataSource_3"
             },
             "sqlExprObj": null,
@@ -16604,8 +16849,35 @@
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
       "actions": [
         {
-          "actionId": "select-data-record-action-1654464406614",
-          "messageWidgetId": "widget_44",
+          "actionId": "select-data-record-action-1654953337851",
+          "messageWidgetId": "widget_68",
+          "actionName": "select data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_4-181343392a8-layer-5",
+              "mainDataSourceId": "dataSource_4-181343392a8-layer-5",
+              "rootDataSourceId": "dataSource_4",
+              "fields": [
+                "Asset_ID"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_14-181347a484e-layer-3",
+              "mainDataSourceId": "dataSource_14-181347a484e-layer-3",
+              "rootDataSourceId": "dataSource_14",
+              "fields": [
+                "ParkID"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.8.0"
+        },
+        {
+          "actionId": "select-data-record-action-1655073842364",
+          "messageWidgetId": "widget_68",
           "actionName": "select data record action",
           "description": null,
           "config": {
@@ -16672,7 +16944,7 @@
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
       "actions": [
         {
-          "actionId": "select-data-record-action-1654541641610",
+          "actionId": "select-data-record-action-1655069651024",
           "messageWidgetId": "widget_83",
           "actionName": "select data record action",
           "description": null,
@@ -16690,7 +16962,7 @@
               "mainDataSourceId": "dataSource_15-181347a9a80-layer-5",
               "rootDataSourceId": "dataSource_15",
               "fields": [
-                "RoadTrailID"
+                "ParkID"
               ]
             },
             "sqlExprObj": null,
@@ -16884,6 +17156,6 @@
       "page_0": []
     }
   ],
-  "timestamp": 1654888714844,
+  "timestamp": 1655215010085,
   "customTheme": {}
 }
